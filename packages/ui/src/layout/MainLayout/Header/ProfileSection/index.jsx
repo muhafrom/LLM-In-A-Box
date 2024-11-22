@@ -407,7 +407,7 @@ const ProfileSection = ({ username, handleLogout }) => {
                                                     <ListItemText primary={<Typography variant='body2'>Import</Typography>} />
                                                 </ListItemButton>
                                                 <input ref={inputRef} type='file' hidden onChange={fileChange} accept='.json' />
-                                                <ListItemButton
+{/*                                                 <ListItemButton
                                                     sx={{ borderRadius: `${customization.borderRadius}px` }}
                                                     onClick={() => {
                                                         setOpen(false)
@@ -418,7 +418,7 @@ const ProfileSection = ({ username, handleLogout }) => {
                                                         <IconInfoCircle stroke={1.5} size='1.3rem' />
                                                     </ListItemIcon>
                                                     <ListItemText primary={<Typography variant='body2'>About Flowise</Typography>} />
-                                                </ListItemButton>
+                                                </ListItemButton> */}
                                                 {localStorage.getItem('username') && localStorage.getItem('password') && (
                                                     <ListItemButton
                                                         sx={{ borderRadius: `${customization.borderRadius}px` }}
