@@ -5,8 +5,8 @@ services:
         build:
           context: ./
           dockerfile: Dockerfile
-        image: cf-llm-box
-        container_name: cf_flowise
+        image: llm-in-a-box
+        container_name: cf_flowise_214
         restart: always
         env_file:
              - .env
